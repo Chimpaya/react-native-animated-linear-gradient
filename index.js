@@ -92,7 +92,7 @@ class AnimatedGradient extends Component {
           toValue: customColors.length,
           duration: customColors.length * speed,
           easing: Easing.linear,
-          useNativeDriver: true,
+          useNativeDriver: false,
         });
       })
     ).start(this.startAnimation);
